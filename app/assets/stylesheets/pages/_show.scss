@@ -1,0 +1,119 @@
+/* Banner styling */
+.banner {
+    background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83)); /* Purple gradient background */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  /* General container for list and content */
+  .my-lists {
+    margin-top: 30px;
+  }
+  
+  /* "Create bookmark" button styling */
+  .my-lists .btn-primary {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .my-lists .btn-primary:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+  }
+  
+  /* Movie card container */
+  .card {
+    margin: 15px 0;
+    border: none;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.02); /* Slight zoom effect on hover */
+  }
+  
+  /* Movie card image styling */
+  .card-image {
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  /* Movie card text content */
+  .card-product-infos {
+    padding: 15px;
+  }
+  
+  .card-product-infos h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+  }
+  
+  .card-product-infos p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* Comment styling */
+  .list-group-item {
+    font-size: 14px;
+    font-style: italic;
+    color: #333;
+    padding: 8px 0;
+  }
+  
+  /* Action buttons (Delete, etc.) */
+  .actions .btn-danger {
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .actions .btn-danger:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Return to Lists button */
+  .mt-4 .btn-secondary {
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #6c757d;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mt-4 .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
