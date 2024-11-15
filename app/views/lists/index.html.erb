@@ -12,7 +12,7 @@
   </div>
   <div class="row">
     <% @lists.each do |list| %>
-      <% if @list.photo.attached? %>
+      <% if list.photo.attached? %>
       <div class="col-md-4">
         <div class="card">
           <%= link_to list_path(list), class: "card-link" do %>
